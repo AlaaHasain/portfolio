@@ -118,9 +118,8 @@ a{
 .skills{
     background : linear-gradient(to top left, rgb(49, 49, 49), rgb(27, 27, 27));
     width: 100%;
-    display: grid;
-    /* flex-direction: row; */
-    /* grid-template-columns: repeat(4, 1fr, 1fr); */
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     padding: 100px 0px;
@@ -128,7 +127,7 @@ a{
     
 }
 .skl{
-    width: 350px;
+    width: 280px;
     height: 350px;
     background-color: gray;
     /* margin: 25px; */
@@ -184,18 +183,29 @@ a{
     box-shadow: 0px 8px 20px white;
 }
 
-.cert{
+/* .cert{
     background : linear-gradient(to top left, rgb(49, 49, 49), rgb(27, 27, 27));
     width: 100%;
     display: grid;
-    /* flex-direction: row; */
-    /* grid-template-columns: repeat(4, 1fr, 1fr); */
+    flex-direction: row;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-evenly;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 100px 0px;
     
+} */
+
+.cert{
+    background: linear-gradient(to top left, rgb(49, 49, 49), rgb(27, 27, 27));
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1), 4fr);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px;
 }
+
 .cer{
     width: 350px;
     height: 350px;
@@ -292,45 +302,6 @@ img{
     line-height: normal;
 }
 
-@media (max-width: 768px) {
-    .nav {
-        display: none;
-    }
-
-    .my_img {
-        height: 200px;
-        width: 200px;
-    }
-
-    .header_cont {
-        flex-direction: column;
-    }
-
-    .about_tit {
-        font-size: 40px;
-    }
-
-    .about_txt {
-        width: 90%;
-        font-size: 18px;
-        text-align: center;
-    }
-
-    .skills {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .skl {
-        width: 80%;
-        height: 250px;
-    }
-
-    .btn {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
 
 @media (max-width: 480px) {
     .nav {
@@ -355,10 +326,13 @@ img{
     }
 
     .s {
+        /* flex-direction: column;
+        align-items: flex-start; */
         text-align: center;
     }
 
     .skills {
+        display: grid;
         grid-template-columns: repeat(1, 1fr, 1fr);
         padding: 15px;
     }
