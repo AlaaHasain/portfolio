@@ -92,12 +92,6 @@ a{
     box-shadow: 0px 2px 5px white;
 }
 
-.btn1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .about{
     background : linear-gradient(to top left, rgb(27, 27, 27), rgb(49, 49, 49));
     width: 100%;
@@ -362,13 +356,7 @@ img{
         width: 100%;
         padding: 15px;
     }
-    .btn1 {
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-    }
-    
+}
 
     footer {
         flex-direction: column;
