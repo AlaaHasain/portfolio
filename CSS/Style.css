@@ -317,7 +317,10 @@ img{
         gap: 10px;
         flex-direction: row;
     }
-
+    .header_info{
+        flex-direction: column;
+        gap: 10px;
+    }
     .my_img {
         height: 150px;
         width: 150px;
