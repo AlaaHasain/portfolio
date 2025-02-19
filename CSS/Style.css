@@ -315,6 +315,7 @@ img{
     .header_cont {
         flex-wrap: nowrap;
         gap: 10px;
+        flex-direction: row;
     }
 
     .my_img {
