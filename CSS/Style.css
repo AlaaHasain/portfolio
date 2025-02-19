@@ -355,8 +355,8 @@ img{
     .btn {
         width: 100%;
         padding: 15px;
+        flex-direction: column;
     }
-}
 
     footer {
         flex-direction: column;
