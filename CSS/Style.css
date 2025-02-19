@@ -65,9 +65,10 @@ a{
 .header_cont{
     margin-top: 2vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
     flex-wrap: wrap;
-    flex-direction: row;
 }
 .firsti{
     font-size: 40px;
@@ -312,9 +313,8 @@ img{
     }
 
     .header_cont {
-        flex-direction: row;
-/*         flex-wrap: wrap; */
-        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 10px;
     }
 
     .my_img {
