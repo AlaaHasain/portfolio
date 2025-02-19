@@ -318,6 +318,8 @@ img{
 
     .header_cont {
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .my_img {
