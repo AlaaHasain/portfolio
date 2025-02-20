@@ -63,6 +63,8 @@ a{
 
 
 .header_cont{
+    display: flex;
+    flex-direction: column;
     margin-top: 2vh;
     display: flex;
     justify-content: center;
